@@ -19,6 +19,6 @@ async function main(){
   let data = JSON.parse(content)
   data['preferredEdition'] = data['preferredEdition']==year.toString()?((year+1).toString()):(year.toString())
   data = JSON.stringify(data);
-  await fs.writeFile(path, data)
+  await fs.writeFile(aboutPath, data)
 }
 main().catch(e=>setFailed(e.message))
