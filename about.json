@@ -1,5 +1,5 @@
 {
-  "devInfo":"for the fetched version i use the unix timestamp, so u can use it (maybe) anywhere",
+  "devInfo":"for the fetched version i use the unix UTC timestamp, so u can use it (maybe) anywhere",
   "version":"1.0.0",
   "lastFetched":"1722673113"
   "description":"fetch indonesian holidays",
