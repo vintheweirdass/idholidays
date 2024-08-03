@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
-      - run: Up2Date.js
+      - run: node Up2Date.js
       - uses: gr2m/set-cron-schedule-action@v2
         with:
           token: ${{ secrets.WORKFLOWTOKEN }}
