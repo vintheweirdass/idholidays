@@ -2,7 +2,7 @@
    "name":"Up2DateRT",
   "description":"Up2Date bot for idholidays ics data",
   "type":"module",
-  "main":"Up2Date.js"
+  "main":"Up2Date.js",
     "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/io": "^1.1.3"
