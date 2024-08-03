@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Jakarta
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Asia/Jakarta
+X-LIC-LOCATION:Asia/Jakarta
+BEGIN:STANDARD
+TZNAME:WIB
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722673741427-59399@ical.marudot.com
+DTSTART;VALUE=DATE:20240101
+DTEND;VALUE=DATE:20240102
+SUMMARY:New Year
+DESCRIPTION:Happy New Year\, everyone!
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722673837808-31352@ical.marudot.com
+DTSTART;VALUE=DATE:20240208
+DTEND;VALUE=DATE:20240209
+SUMMARY:Isra Mi’raj (Ascension Day) of Prophet Muhammad
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722674116616-91576@ical.marudot.com
+DTSTART;VALUE=DATE:20240209
+DTEND;VALUE=DATE:20240210
+SUMMARY:(Collective Leave) Chinese New Year Kongzili
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Tomorrow\, 10 February 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722674139479-90792@ical.marudot.com
+DTSTART;VALUE=DATE:20240210
+DTEND;VALUE=DATE:20240211
+SUMMARY:Chinese New Year Kongzili
+DESCRIPTION:Happy Lunar New Year!
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722674358445-76988@ical.marudot.com
+DTSTART;VALUE=DATE:20240311
+DTEND;VALUE=DATE:20240312
+SUMMARY:Holy Day of Silence\, Saka New Year
+DESCRIPTION:Happy Saka New Year! And keep a silence\, Ok?
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722674631194-53201@ical.marudot.com
+DTSTART;VALUE=DATE:20240312
+DTEND;VALUE=DATE:20240313
+SUMMARY:(Collective Leave) Holy Day of Silence\, Saka New Year
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 11 March 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722675022102-21684@ical.marudot.com
+DTSTART;VALUE=DATE:20240329
+DTEND;VALUE=DATE:20240330
+SUMMARY:(Not Widely Used) Good Friday
+DESCRIPTION:(Explanation about 'Not Widely Used': Even though the Gov't already add this holiday to the calendar\, still the company\, school\, etc. just ignores it\, or optional based on your religion or so. ie: If this day was related to Catholic\, Only the catholic school\, or a worker that was following the Catholic religion who was allowed to use this holiday. Keep in mind that the example might not work on some holidays that aren't using this 'Not Widely Used' tag)
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722675403457-28840@ical.marudot.com
+DTSTART;VALUE=DATE:20240331
+DTEND;VALUE=DATE:20240401
+SUMMARY:Easter Day
+DESCRIPTION:Happy Easter Day! 🥚🐰
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722675812976-45171@ical.marudot.com
+DTSTART;VALUE=DATE:20240408
+DTEND;VALUE=DATE:20240410
+SUMMARY:(Collective Leave) Eid Al-Fitr
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Tomorrow\, 10-11 April 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722675525362-11808@ical.marudot.com
+DTSTART;VALUE=DATE:20240410
+DTEND;VALUE=DATE:20240412
+SUMMARY:Eid Al-Fitr
+DESCRIPTION:Eid Mubarak!
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722676045624-88171@ical.marudot.com
+DTSTART;VALUE=DATE:20240412
+DTEND;VALUE=DATE:20240413
+SUMMARY:(Collective Leave) Eid Al-Fitr
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 10-11 April 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722676076822-66695@ical.marudot.com
+DTSTART;VALUE=DATE:20240415
+DTEND;VALUE=DATE:20240416
+SUMMARY:(Collective Leave) Eid Al-Fitr
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 10-11 April 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722676117884-94504@ical.marudot.com
+DTSTART;VALUE=DATE:20240501
+DTEND;VALUE=DATE:20240502
+SUMMARY:International Labor Day
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722676188354-24015@ical.marudot.com
+DTSTART;VALUE=DATE:20240509
+DTEND;VALUE=DATE:20240510
+SUMMARY:(Not Widely Used) Ascension of Jesus Christ
+DESCRIPTION:(Explanation about 'Not Widely Used': Even though the Gov't already add this holiday to the calendar\, still the company\, school\, etc. just ignores it\, or optional based on your religion or so. ie: If this day was related to Catholic\, Only the catholic school\, or a worker that was following the Catholic religion who was allowed to use this holiday. Keep in mind that the example might not work on some holidays that aren't using this 'Not Widely Used' tag)
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722676844453-75079@ical.marudot.com
+DTSTART;VALUE=DATE:20240510
+DTEND;VALUE=DATE:20240511
+SUMMARY:(Not Widely Used) (Collective Leave) Ascension of Jesus Christ
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 9 May 😉\n\n(Explanation about 'Not Widely Used': Even though the Gov't already add this holiday to the calendar\, still the company\, school\, etc. just ignores it\, or optional based on your religion or so. ie: If this day was related to Catholic\, Only the catholic school\, or a worker that was following the Catholic religion who was allowed to use this holiday. Keep in mind that the example might not work on some holidays that aren't using this 'Not Widely Used' tag)
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677126502-88696@ical.marudot.com
+DTSTART;VALUE=DATE:20240523
+DTEND;VALUE=DATE:20240524
+SUMMARY:Vesak Day
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677184827-31866@ical.marudot.com
+DTSTART;VALUE=DATE:20240524
+DTEND;VALUE=DATE:20240525
+SUMMARY:(Collective Leave) Vesak Day
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 23 May 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677309247-91998@ical.marudot.com
+DTSTART;VALUE=DATE:20240601
+DTEND;VALUE=DATE:20240602
+SUMMARY:Pancasila Day
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677423068-11133@ical.marudot.com
+DTSTART;VALUE=DATE:20240617
+DTEND;VALUE=DATE:20240618
+SUMMARY:Eid al-Adha
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677470698-92736@ical.marudot.com
+DTSTART;VALUE=DATE:20240618
+DTEND;VALUE=DATE:20240619
+SUMMARY:(Collective Leave) Eid al-Adha
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 17 June 😉
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677730964-77437@ical.marudot.com
+DTSTART;VALUE=DATE:20240707
+DTEND;VALUE=DATE:20240708
+SUMMARY:Islamic New Year
+DESCRIPTION:Happy Islamic New Year!
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722677830987-22695@ical.marudot.com
+DTSTART;VALUE=DATE:20240817
+DTEND;VALUE=DATE:20240818
+SUMMARY:Independence Day of the Republic of Indonesia
+DESCRIPTION:Happy Independence Day\, Indonesia!
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722678085485-61093@ical.marudot.com
+DTSTART;VALUE=DATE:20240916
+DTEND;VALUE=DATE:20240917
+SUMMARY:Birthday of Prophet Muhammad
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722678128044-83751@ical.marudot.com
+DTSTART;VALUE=DATE:20241225
+DTEND;VALUE=DATE:20241226
+SUMMARY:Christmas Day
+DESCRIPTION:Merry Christmas!🎅🦌
+LOCATION:Indonesia
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240803T094702Z
+UID:1722678240464-64195@ical.marudot.com
+DTSTART;VALUE=DATE:20241226
+DTEND;VALUE=DATE:20241227
+SUMMARY:(Collective Leave) Christmas Day
+DESCRIPTION:This is a Collective Leave\, Not the Real event. The real event is stated at Yesterday\, 26 December😉
+LOCATION:Indonesia
+END:VEVENT
+END:VCALENDAR
