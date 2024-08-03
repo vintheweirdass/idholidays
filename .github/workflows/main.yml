@@ -1,5 +1,10 @@
 name: Up2DateRT
 on:
+  workflow_dispatch:
+    inputs:
+      nahWhat:
+        description: 'nah wth is this'
+        required: false
   schedule:
     - cron: "45 4 31 12 *"
 
