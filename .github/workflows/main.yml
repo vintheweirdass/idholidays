@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repo: idholidays
+          repository: idholidays
           ref: 'master'
           token: ${{ secrets.ACTION_IDH }}
       - uses: actions/setup-node@v4
