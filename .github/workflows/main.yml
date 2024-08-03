@@ -1,4 +1,4 @@
-name: Up2Date
+name: Up2DateRT
 on:
   schedule:
     - cron: "45 4 31 12 *"
@@ -8,14 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: setup.sh
+      - run: npm 
       - uses: gr2m/set-cron-schedule-action@v2
         with:
           token: ${{ secrets.WORKFLOWTOKEN }}
           cron: |
-            0 10 * * 2
-            0 15 * * 4
+             - cron: "45 4 31 12 *"
           # optional: set workflow id or file name
-          # workflow: my-workflow.yml
+          workflow: up2date.yml
           # optional: Defaults to "ci($WORKFLOW_NAME): update cron schedule: $CRON_EXPRESSIONS".
           #           $WORKFLOW_NAME and $CRON_EXPRESSIONS will be replaced.
-          message: "Change the 'preferredEdition' to the current year if the file available"
+          message: "Running Up2Date bot at specified time.."
