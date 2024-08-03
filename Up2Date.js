@@ -10,7 +10,7 @@ function toIcsCollection(f){
     ]
 }
 async function main(){
-  const year = (new Date(new Date.now())).getUTCFullYear()
+  const year = (new Date(Date.now())).getUTCFullYear()
   await fs.stat(aboutPath)
   for (const each of toIcsCollection(aboutPath)) await fs.stat(each)
   /** @type {string} */
