@@ -12,9 +12,18 @@ jobs:
   reminder:
     runs-on: ubuntu-latest
     steps:
+      - name: Checking file
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install
-      - run: node Up2Date.js
+      - run: |
+          npm install
+          node Up2Date.js
+      - name: Push file
+      - run: |
+          git config --global user.name 'cupglassDEV'
+          git config --global user.email 'cupglassDEV@users.noreply.github.com'
+          git commit -am "U2Dbot (on cupglassDEV behalf) - Changed the about.json file"
+          git push
+
