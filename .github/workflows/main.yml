@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        #with:
-        #  token: ${{ secrets.WORKFLOWTOKEN }}
+        with:
+          repo: idholidays
+          ref: 'master'
+          token: ${{ secrets.ACTION_IDH }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
