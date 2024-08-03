@@ -7,15 +7,19 @@ jobs:
   reminder:
     runs-on: ubuntu-latest
     steps:
-      - run: setup.sh
-      - run: npm 
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+      - run: Up2Date.js
       - uses: gr2m/set-cron-schedule-action@v2
         with:
           token: ${{ secrets.WORKFLOWTOKEN }}
           cron: |
              - cron: "45 4 31 12 *"
           # optional: set workflow id or file name
-          workflow: up2date.yml
+          workflow: main.yml
           # optional: Defaults to "ci($WORKFLOW_NAME): update cron schedule: $CRON_EXPRESSIONS".
           #           $WORKFLOW_NAME and $CRON_EXPRESSIONS will be replaced.
           message: "Running Up2Date bot at specified time.."
