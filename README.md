@@ -1,2 +1,2 @@
-# icalidholidays
+# idholidays
 collect indonesian holidays for my cupglassdev.x project. iCal not supported for now on...
