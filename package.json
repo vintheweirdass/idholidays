@@ -1,0 +1,6 @@
+{
+"name":"Up2DateRT",
+  "description":"Up2Date bot for idholidays ics data",
+  "type":"module",
+  "main":"Up2Date.js"
+}
