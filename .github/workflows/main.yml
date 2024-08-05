@@ -5,7 +5,9 @@ on:
     - cron: "45 4 31 12 *"
 
 jobs:
-  reminder:
+  rt:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
