@@ -23,6 +23,6 @@ jobs:
           node Up2Date.js
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -am "U2Dbot (on cupglassDEV behalf) - Changed the about.json file"
+          git commit -am "U2Dbot - Changed the 'preferredEdition' for about.json"
           git push
 
