@@ -22,7 +22,7 @@ async function main(){
   let data = JSON.parse(content)
   let yearCalc = data['preferredEdition']==(year.toString())?((year+1).toString()):(year.toString())
   setOutput(`setting year to ${yearCalc}`)
-  data['preferredEdition'] = year calc
+  data['preferredEdition'] = yearCalc
   data = JSON.stringify(data);
   setOutput(`writing back to ${aboutPath}`)
   await fs.writeFile(aboutPath, data)
