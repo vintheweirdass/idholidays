@@ -16,7 +16,7 @@ jobs:
         with:
           repository: cupglassDEV/idholidays
           ref: 'master'
-          token: ${{ secrets.ACTION_IDH }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
