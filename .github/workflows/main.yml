@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: '20'
       - run: |
+          git pull
           npm install
           node Up2Date.js
           git config --global user.name 'github-actions'
