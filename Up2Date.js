@@ -1,5 +1,5 @@
 //esm is good👌
-import { setFailed, setOutput as _ } from "@actions/core";
+import { setFailed, setOutput } from "@actions/core";
 import fs from "node:fs/promises";
 const aboutPath = "about.json"
 /** @type {(f:string)=>string[]} */
